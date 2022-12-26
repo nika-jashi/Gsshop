@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def store(request):
     context = {}
-    return render(request, 'store/store.html', context)
+    return render(request, 'store/header.html', context)
 
 
 def cart(request):
